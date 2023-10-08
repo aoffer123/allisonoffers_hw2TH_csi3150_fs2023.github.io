@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=50%, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./img/local_library_FILL0_wght400_GRAD0_opsz24.png"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Portfolio</title>
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <!--LOGO container-->
+      <div class="logo">
+        <img
+          src="./img/icons8-reading-64.png"
+          alt="company logo"
+          height="35"
+          width="35"
+        />
+        <p>Portfolio</p>
+      </div>
+
+      <!--Navigation menu container-->
+      <ul class="nav-links">
+        <!--Menu icon-->
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+        <div class="menu">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./html/my_resume.html">My Resume</a></li>
+
+          <li class="fun-facts">
+            <a href="./html/my_fun_facts.html">My Fun Facts</a>
+            <ul class="dropdown">
+              <li><a href="/">Favorite Book</a></li>
+              <li><a href="/">Favorite Song</a></li>
+              <li><a href="/">Favorite Movie</a></li>
+            </ul>
+          </li>
+        </div>
+      </ul>
+    </nav>
+
+    <!--photo and quote-->
+    <main>
+      <div class="row">
+        <!--right column-->
+        <div class="side column">
+          <h1 class="page-heading">Allison Offer's Portfolio</h1>
+          <h2 class="page-subheading">
+            <blockquote>
+              <p>
+                "Live as if you were to die tomorrow. Learn as if you were to
+                live forever." - Mahatma Gandhi
+              </p>
+            </blockquote>
+          </h2>
+          <div class="learn-more">
+            <li class="sub-pages">
+              <a href="/">Learn More</a>
+              <ul class="learn-more-dropdown">
+                <li><a href="./html/my_resume.html">My Resume</a></li>
+                <li><a href="./html/my_fun_facts.html">My Fun Facts</a></li>
+              </ul>
+            </li>
+          </div>
+        </div>
+
+        <!--Main column-->
+        <div class="photoContainer">
+          <article>
+            <img
+              width="530px"
+              height="580px"
+              src="./img/avatarpic3.jpg"
+              alt="Avatar Picture of Allison Offer"
+            />
+          </article>
+        </div>
+
+        <!--right column-->
+        <div class="about-me">
+          <!--background information container-->
+          <article class="backgroundContainer">
+            <h2 class="sub-title">Background</h2>
+            <p class="sub-text">
+              I'm currently a student working towards my degree in Information
+              Technology/Application Development at Oakland University. My
+              interests include software design and development, machine
+              learning, and User Experience/User Interface.
+            </p>
+          </article>
+          <!--professional affiliations container-->
+          <article>
+            <h2 class="sub-title">Professional Affiliations</h2>
+            <p class="sub-text">
+              I am a cloud developer intern at Irdeto, a company that developed
+              a keyless solution for fleet management systems. I have
+              contributed to the design, development, debugging, testing, and
+              deployment of the Keystone Cloud operations. Upon graduation, I
+              hope to get a job as full-stack developer or UI/UX designer. To
+              learn more about me, check out
+              <a href="./html/my_resume.html">my resume</a> and
+              <a href="./html/my_fun_facts.html">my fun facts</a>!
+            </p>
+          </article>
+          <!--credit completion section-->
+          <article>
+            <h2 class="sub-title">College Completion</h2>
+            <label for="completionBar">Credits completed:</label>
+            <progress id="completionBar" value="120" max="128">94%</progress>
+            <p class="sub-text">
+              I have taken 120 credits out of 128 that are required to complete
+              my B.S. in Information Technology.
+            </p>
+          </article>
+        </div>
+      </div>
+    </main>
+
+    <!--Footer-->
+    <div class="footer">
+      <footer>
+        &copy; Allison Offer 2023. <br />
+        <a href="www.linkedin.com/in/allison-offer-984976276">LinkedIn</a>
+        <a href="mailto:aoffer@oakland.edu">aoffer@oakland.edu</a>
+        <br />
+      </footer>
+    </div>
+  </body>
+</html>
